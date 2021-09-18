@@ -1,0 +1,14 @@
+.card {
+    display: inline-block;
+    background-color: wheat;
+    margin: 0.5em;
+    text-align: center;
+    font-family: system-ui;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
