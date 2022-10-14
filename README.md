@@ -4,7 +4,7 @@
 
 
 
-You can expolore the github followers throgh this website by appending your github id to the url
+You can expolore the github followers through this website by appending your github id to the url
 
 
 ## Usage
