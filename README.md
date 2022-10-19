@@ -7,7 +7,7 @@
 You can expolore the github followers through this website by appending your github id to the url
 
 
-## Usage
+### Usage
 
 click  [here](https://rohittp.com/folllow-the-tree/) to go to the website and add your github id after a # tag 
 
