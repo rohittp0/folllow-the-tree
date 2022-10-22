@@ -23,6 +23,7 @@ async function getData(userName)
 
     const data = await fetch(`https://api.github.com/users/${userName}/followers`);
     const follwers = await data.json();
+    console.log(follwers);
 
     root.innerHTML = "";
 

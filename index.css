@@ -11,6 +11,7 @@ body {
     text-decoration: none;
     color: black;
     transition: all 0.5s;
+    box-shadow: 0px 5px 10px 3px rgba(153, 142, 142, 0.2), 0 6px 20px 0 rgba(110, 97, 97, 0.19);
 }
 
 .card:hover {
