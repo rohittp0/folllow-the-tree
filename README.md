@@ -6,6 +6,8 @@
 
 You can expolore the github followers through this website by appending your github id to the url
 
+contribute to this repository and participate in hacktober fest
+
 
 ### Usage
 
