@@ -1,6 +1,30 @@
+/*
+Adding custom font wood.ttf
+*/
+@font-face {
+    font-family: wood;
+    src: url(assets/wood.ttf);
+}
+
 body {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  }
+    color: white;
+    font-family: sans-serif;
+}
+
+.main-title {
+    font-family: wood, cursive, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 0.5em;
+    font-weight: normal;
+    color: #dcb37d;
+}
+
+.main-title span {
+    color: #60d522;
+    text-shadow: 0 0 20px #0fc636;
+}
 
 .card {
     display: inline-block;
@@ -11,7 +35,7 @@ body {
     text-decoration: none;
     color: black;
     transition: all 0.5s;
-    box-shadow: 0px 5px 10px 3px rgba(153, 142, 142, 0.2), 0 6px 20px 0 rgba(110, 97, 97, 0.19);
+    box-shadow: 0 5px 10px 3px rgba(153, 142, 142, 0.2), 0 6px 20px 0 rgba(110, 97, 97, 0.19);
 }
 
 .card:hover {
