@@ -19,9 +19,9 @@ async function getAllPages(url) {
 
     while (true) {
         const response = await fetch(`${url}?per_page=${resultsPerPage}&page=${currentPage}`);
-        const data = await response.json();
+        const data = await response.json().catch(() => []);
 
-        if (data.length === 0) {
+        if (!data || !(data.length > 0)) {
             // if there is no data on this page, we have reached the end
             break;
         }
